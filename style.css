@@ -11,13 +11,17 @@ html, body {
 	letter-spacing: 1px;
 	background-color: #0d0907;
 	color: #fffbf9;
+
+}
+
+html {
 	background: url(bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+	
 }
-
 h1, h2, h3, h4, p, span, strong {
 	margin: 0;
 }
