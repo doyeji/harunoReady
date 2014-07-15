@@ -187,7 +187,6 @@ div.wrapper {
 div.row,
 div.column {
 	width: 100%;
-	max-width: 600px;
 }
 div.inline {
 	display: block;
