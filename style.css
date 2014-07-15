@@ -176,7 +176,9 @@ div.menu-links div.column {
 }
 
 
-
+/*-------------------------
+Media Queries
+----------------------------*/
 
 @media screen and (max-width: 640px) {
 
