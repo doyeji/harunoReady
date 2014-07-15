@@ -213,5 +213,8 @@ div.menu-links h2 {
 	margin-top: 0;
 }
 
+div.menu-links div.column{
+	padding-right: 0;
+}
 
 }
