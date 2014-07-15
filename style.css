@@ -31,14 +31,13 @@ h1, h2, h3, h4, p, span, strong {
 }
 
 a {
-	text-decoration: none;
 	color: #fffbf9;
 }
 
 
 h2 {font-size: 1.5rem;}
 h3 {font-size: 1.125rem;}
-h4 {font-size: }
+h4 {font-size: 1em; }
 p  {font-size: 1rem; line-height: 1.5}
 
 div.row { 	margin-bottom:0; }
@@ -88,10 +87,19 @@ div.intro >h2>span {
 	font-weight: lighter;
 }
 
+div.intro >h2:nth-child(2) {
+	padding-bottom: 15px;
+}
 
-
-div.intro p:nth-child(2) {
+div.intro p:nth-child(3),
+div.intro p:nth-child(4) {
 	margin: 15px 0;
+}
+
+div.intro p.extra {
+	font-size: 0.825rem; 
+	color: #a5a2a0;
+	margin-top: 15px;
 }
 
 /*-------------------------
@@ -107,14 +115,16 @@ div.eden {
 	padding-right: 50px;
 }
 
-div.contact p, 
-div.contact h4 {
+div.contact p {
 	color: #a5a2a0;
 	font-size: 0.875rem;
 }
 div.contact h4 {
 	font-weight:  bold;
+
 }
+
+
 
 /*-------------------------
 Menu Links
